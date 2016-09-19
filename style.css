@@ -1,0 +1,61 @@
+*{
+	font-family: arial;
+	box-sizing: border-box;
+	vertical-align: baseline;
+	
+}
+body{
+	background-color: #16a085;
+	color: #16a085;
+}
+
+#box{
+	position: relative;	
+	background-color: #fff;
+	border-radius: 3px;	
+	width: 600px;
+	margin: 8% auto auto auto;
+	padding: 40px 50px;
+}
+#text{
+	text-align: center;
+}
+#text i{
+	margin-right: .4em;
+	font-size: 1.7em;
+}
+#quote-text{
+	font-size: 30px;
+}
+#cite{
+	font-size: 20px;
+	margin: 20px 0 30px auto;
+	text-align: right;
+}
+#buttons{
+	width: 500px;
+	margin: 0 0 70px 10px;
+}
+.button{
+	font-size: 1.2em;	
+	border-radius: 3px;
+	padding: 8px;
+	background-color: #16a085;
+	color: #fff;
+}
+.button:hover {
+    opacity:0.9;
+     }
+#buttons a{
+	float: left;
+	width: 40px;
+	text-align: center;
+	margin-right: 5px;
+}     
+#buttons button{
+	float: right;
+	font-size: 1.1em;
+	border: none;
+	outline:none;
+}
+
