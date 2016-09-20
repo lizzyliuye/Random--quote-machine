@@ -8,7 +8,7 @@ body{
 	background-color: #16a085;
 	color: #16a085;
 }
-
+/*整个谚语盒子样式*/
 #box{
 	position: relative;	
 	background-color: #fff;
@@ -17,25 +17,31 @@ body{
 	margin: 8% auto auto auto;
 	padding: 40px 50px;
 }
+/*谚语引号及文本样式*/
 #text{
 	text-align: center;
 }
+/*谚语引号样式*/
 #text i{
 	margin-right: .4em;
 	font-size: 1.7em;
 }
+/*谚语文本样式*/
 #quote-text{
 	font-size: 30px;
 }
+/*作者名称样式*/
 #cite{
 	font-size: 20px;
 	margin: 20px 0 30px auto;
 	text-align: right;
 }
+/*按钮组样式*/
 #buttons{
 	width: 500px;
 	margin: 0 0 70px 10px;
 }
+/*3个按钮共用样式*/
 .button{
 	font-size: 1.2em;	
 	border-radius: 3px;
@@ -46,12 +52,14 @@ body{
 .button:hover {
     opacity:0.9;
      }
+/*tweet及tumblr按钮样式*/
 #buttons a{
 	float: left;
 	width: 40px;
 	text-align: center;
 	margin-right: 5px;
 }     
+/*new-quote按钮样式*/
 #buttons button{
 	float: right;
 	font-size: 1.1em;
